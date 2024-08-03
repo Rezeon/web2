@@ -1,0 +1,58 @@
+body {
+    background: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+#navbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px gray;
+    background-color: rgba(105, 104, 104, 0.178);
+
+}
+
+#navbar .nav-link {
+    color: black;
+    transition: color 0.3s ease;
+}
+
+#navbar .nav-link:hover {
+    color: yellow;
+}
+#navbar .navbar-brand {
+    color: black;
+    font-size: 1.5rem;
+}
+#titlehead {
+    font-weight: 100;
+    font-size: 4rem;
+    
+}
+.blurp h2{
+    color: black;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+.blurp p {
+    color: rgb(92, 91, 91);
+    font-weight: 100;
+    font-size: 1.2rem;
+    line-height: 2;
+}
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.navbar.scroller {
+    background-color: darkslategray;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #titlehead {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
